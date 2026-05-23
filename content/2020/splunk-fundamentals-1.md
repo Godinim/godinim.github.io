@@ -2,7 +2,7 @@
 publish: true
 title: Splunk Fundamentals 1
 created: 2020-07-22
-modified: 2026-05-18T23:33:26.090+08:00
+modified: 2026-05-20T00:18:50.237+08:00
 tags:
   - Data
   - Security
