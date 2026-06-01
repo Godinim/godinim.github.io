@@ -1,17 +1,31 @@
 ---
-publish: true
+title: Quartz Blog Posts with Obsidian
 aliases:
   - "Project Showcase: Static Blog Posts with Obsidian"
   - Static Blog Posts with Obsidian Review Draft
   - Quartz Blog Setup
-title: Quartz Blog Posts with Obsidian
-created: 2025-11-23
-modified: 2026-05-23T19:58:44.318+08:00
 tags:
   - AI
   - Obsidian
   - Quartz
   - GitHub-Pages
+date: 2025-11-23
+github: https://github.com/Godinim/godinim.github.io
+tools:
+  - Obsidian
+  - Quartz
+  - GitHub
+  - GitHub Pages
+  - GitHub Actions
+  - Quartz Syncer
+concepts:
+  - Static site generation
+  - Markdown publishing
+  - Digital garden
+  - Git-based deployment
+  - Knowledge management
+summary: Publishing Obsidian notes as a static website using Quartz, GitHub Pages, and a lightweight Git-based workflow.
+publish: true
 ---
 
 # Static Blog Posts with Obsidian

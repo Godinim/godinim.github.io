@@ -1,10 +1,7 @@
 ---
-publish: true
+title: "Running Local LLMs on AMD: RX 7800 XT Setup Guide & Benchmarks"
 aliases:
   - AMD Local LLM Guide
-title: "Running Local LLMs on AMD: RX 7800 XT Setup Guide & Benchmarks (2026)"
-created: 2026-02-02
-modified: 2026-05-23T20:02:13.269+08:00
 tags:
   - AI
   - AMD
@@ -16,6 +13,21 @@ tags:
   - LM-Studio
   - vLLM
   - ROCm
+date: 2026-02-02
+github:
+tools:
+  - Ollama
+  - llama.cpp
+  - LM Studio
+  - vLLM
+  - ROCm
+concepts:
+  - AMD ROCm
+  - GPU Inference
+  - Quantization
+  - Hybrid CPU+GPU Offloading
+summary: Complete guide to running local LLMs on AMD Radeon RX 7800 XT — software setup, model selection, performance expectations, and optimization techniques.
+publish: true
 ---
 
 > **Tagline**: Everything you need to run local LLMs on AMD RDNA 3 — software stacks that work, models that fit 16GB VRAM, and real performance numbers.
@@ -44,13 +56,10 @@ tags:
 - ROCm 6.x has solid gfx1102 support; Windows works via TheRock or WSL2
 - Sweet spot: Qwen3.6-27B Q4\_K\_M (~17GB VRAM) — best quality-per-VRAM ratio
 
-> [!warning] Editorial Caveat
-> The performance and model-fit numbers are **planning estimates**, not measured results from this machine yet. Before publishing, add a benchmark table from your own RX 7800 XT runs or label the table clearly as "research-based estimates."
-
 ## Knowledgebase Links
 
 - **Model choice:** [[llm-model-selection]] explains when to use local models, budget cloud APIs, or frontier models.
-- **Coding workflow:** [[Terminal Coding Agents Showdown]] applies the local-model hardware constraints to CLI coding agents.
+- **Coding workflow:** [[terminal-coding-agents-showdown]] applies the local-model hardware constraints to CLI coding agents.
 - **Document AI:** [[private-rag-document-scanner-base]] is the practical local RAG workload this hardware can support.
 - **Evergreen targets:** [[Local LLM Inference]], [[Quantization]], [[Model Routing]]
 

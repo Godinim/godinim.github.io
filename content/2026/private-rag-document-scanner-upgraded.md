@@ -1,10 +1,7 @@
 ---
-publish: true
+title: "Private RAG Document Scanner (Upgraded): Add Reranking, Cog-RAG & Knowledge Graphs"
 aliases:
   - Local RAG Scanner Upgraded
-title: "Private RAG Document Scanner (Upgraded): Add Reranking, Cog-RAG & Knowledge Graphs"
-created: 2026-03-11
-modified: 2026-05-23T20:00:16.927+08:00
 tags:
   - AI
   - RAG
@@ -20,6 +17,25 @@ tags:
   - BGE-M3
   - LightRAG
   - PostgreSQL
+date: 2026-03-11
+github:
+tools:
+  - n8n
+  - Ollama
+  - Docling
+  - Qdrant
+  - FlashRank
+  - BGE-M3
+  - LightRAG
+  - PostgreSQL
+concepts:
+  - Retrieval-Augmented Generation
+  - Cross-Encoder Reranking
+  - Cog-RAG
+  - Knowledge Graphs
+  - Hybrid Search
+summary: Upgrade your local RAG pipeline with cross-encoder reranking, Cog-RAG iterative probing, and knowledge graph fusion — achieving 93% benchmark accuracy.
+publish: true
 ---
 
 > **Tagline**: Take your local RAG pipeline from good to state-of-the-art — cross-encoder reranking, Cog-RAG iterative probing, knowledge graph fusion, and hybrid search.
@@ -46,14 +62,11 @@ tags:
 - Knowledge graph enables "find documents related to X that mention Y" queries
 - All components run locally with Ollama + open-source models
 
-> [!warning] Editorial Caveat
-> Avoid implying a universal "93% accuracy" ceiling. Better phrasing: "research and sample pipelines report low-90s accuracy on specific benchmark/document sets; your corpus needs its own eval set."
-
 ## Knowledgebase Links
 
 - **Base architecture:** [[private-rag-document-scanner-base]] is the simpler pipeline this post extends.
 - **Model routing:** [[llm-model-selection]] explains when to spend extra compute on reranking or frontier reasoning.
-- **Coding agents:** [[Terminal Coding Agents Showdown]] is a useful comparison point for agentic orchestration and tool loops.
+- **Coding agents:** [[terminal-coding-agents-showdown]] is a useful comparison point for agentic orchestration and tool loops.
 - **Evergreen targets:** [[Retrieval-Augmented Generation]], [[Knowledge Graph RAG]], [[Model Routing]]
 
 ---

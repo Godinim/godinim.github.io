@@ -1,8 +1,8 @@
 ---
 publish: true
 title: About Me
-created: 2026-05-19T00:09:09.274+08:00
-modified: 2026-05-20T00:43:11.738+08:00
+created: 2026-05-27T00:45:47.863+08:00
+modified: 2026-05-27T00:47:28.008+08:00
 ---
 
 I am Godfrey Yang, with a background in mechatronics engineering and formal training in cybersecurity.

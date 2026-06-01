@@ -1,13 +1,13 @@
 ---
-publish: true
+layout: post
+date: 2020-02-10
 title: tmux
-created: 2020-02-10
-modified: 2026-05-20T00:18:51.165+08:00
 tags:
   - Security
   - Cloud
   - Try Hack Me
   - Beginner
+publish: true
 ---
 
 This is my documentation on how to use tmux which is a tool that allows users to run multiple tasks within a single window.

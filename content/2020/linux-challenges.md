@@ -1,13 +1,13 @@
 ---
-publish: true
+layout: post
+date: 2020-02-01
 title: Linux Challenges
-created: 2020-02-01
-modified: 2026-05-20T00:10:15.606+08:00
 tags:
   - Security
   - Cloud
   - Try Hack Me
   - Beginner
+publish: true
 ---
 
 I thought a good place to start would be to do some writeups of some basic Linux challenges. The way I will structure these posts is by first providing a list of fundamental knowledge that you will require to understand followed by a walkthrough of every challenge.
@@ -221,7 +221,7 @@ To find the flag, you are required to understand that each time you open the com
   cat .bashrc
 ```
 
-> alias flag 11='echo "You need to look where the alias are created..."' #b4ba05d85801f62c4c0d05d3a76432e0
+> alias flag 11='echo "You need to look where the alias are created..."' b4ba05d85801f62c4c0d05d3a76432e0
 
 **Answer:** b4ba05d85801f62c4c0d05d3a76432e0
 

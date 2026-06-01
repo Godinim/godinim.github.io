@@ -1,10 +1,7 @@
 ---
-publish: true
+title: "Private RAG Document Scanner: Build a Local Document Intelligence Pipeline"
 aliases:
   - Local RAG Scanner Base
-title: "Private RAG Document Scanner: Build a Local Document Intelligence Pipeline"
-created: 2025-10-31
-modified: 2026-05-23T19:58:25.390+08:00
 tags:
   - AI
   - RAG
@@ -17,6 +14,22 @@ tags:
   - Qdrant
   - PostgreSQL
   - Nginx
+date: 2025-10-31
+github:
+tools:
+  - n8n
+  - Ollama
+  - Docling
+  - Qdrant
+  - PostgreSQL
+  - Nginx
+concepts:
+  - Retrieval-Augmented Generation
+  - Document Parsing
+  - Vector Embeddings
+  - Docker Compose
+summary: Step-by-step guide to building a fully local RAG pipeline for private document scanning, querying, and AI-powered chat.
+publish: true
 ---
 
 > **Tagline**: Ingest, parse, embed, and chat with your private documents — all running locally on your machine with zero data leaving your network.

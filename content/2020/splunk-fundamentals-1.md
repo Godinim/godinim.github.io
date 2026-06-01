@@ -1,8 +1,7 @@
 ---
-publish: true
+layout: post
+date: 2020-07-22
 title: Splunk Fundamentals 1
-created: 2020-07-22
-modified: 2026-05-20T00:18:50.237+08:00
 tags:
   - Data
   - Security
@@ -10,6 +9,7 @@ tags:
   - Splunk
   - Beginner
   - Certification
+publish: true
 ---
 
 This is my summary for the "Splunk Fundamentals 1" certification. Although I have completed it before, I have decided to do a writeup for reviewing purposes.

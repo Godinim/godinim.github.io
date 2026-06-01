@@ -1,14 +1,14 @@
 ---
-publish: true
+layout: post
+date: 2020-01-11
 title: Cybersecurity Basic Theory
-created: 2020-01-11
-modified: 2026-05-20T00:18:49.562+08:00
 tags:
   - Security
   - Data
   - AI
   - Knowledge
   - Beginner
+publish: true
 ---
 
 I thought before cracking down into challenges, it would be great to have a brief explanation of the situation and landscape where cybercrime can exist. This will be beneficial to readers that want to understand and maybe begin their career within Cyber Security.
